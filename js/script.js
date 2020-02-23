@@ -23,11 +23,17 @@ function eql(){
 }
 
 function per(){
+    if ((typeof display) != 'object'){
+        display = [display];
+    }
     display = eval(display.join('')+'/100');
     $('.display').html(display);
 }
 
 function modify(){
+    if ((typeof display) != 'object'){
+        display = [display];
+    }
     display = eval(display.join('')+'*(-1)');
     $('.display').html(display);
 }

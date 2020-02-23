@@ -8,6 +8,7 @@
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(6,1fr);
 }
+
 .display-item {
     grid-column: 1 / 5;
     grid-row: 1;
@@ -38,6 +39,7 @@ input {
     justify-content: center;
     align-items: center;
     color: white;
+    border: 1px solid rgba(223, 223, 223, 0.103);
 }
 
 .col-span-2 {
@@ -51,10 +53,22 @@ input {
     color: black;
 }
 
+.mod:hover {
+    background-color: rgb(117, 117, 117);
+}
+
 .num {
     background-color: rgb(49, 49, 49);
 }
 
+.num:hover {
+    background-color: rgb(32, 32, 32);
+}
+
 .ope {
-    background-color: rgb(236, 150, 22);
+    background-color: rgb(253, 135, 0);
+}
+
+.ope:hover {
+    background-color: rgb(255, 81, 0);
 }
