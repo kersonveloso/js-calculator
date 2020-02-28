@@ -1,36 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <div class="calculator grid-container">
-        <div class="display display-item"></div>
-            <input class="pad-item mod" type="button" value="c" onclick="clr()">
-            <input class="pad-item mod" type="button" value="+/-" onclick="modify()">
-            <input class="pad-item mod" type="button" value="%" onclick="per('%')">
-            <input class="pad-item ope" type="button" value="÷" onclick="insert('/')">
-            <input class="pad-item num" type="button" value="7" onclick="insert('7')">
-            <input class="pad-item num" type="button" value="8" onclick="insert('8')">
-            <input class="pad-item num" type="button" value="9" onclick="insert('9')">
-            <input class="pad-item ope" type="button" value="*" onclick="insert('*')">
-            <input class="pad-item num" type="button" value="4" onclick="insert('4')">
-            <input class="pad-item num" type="button" value="5" onclick="insert('5')">
-            <input class="pad-item num" type="button" value="6" onclick="insert('6')">
-            <input class="pad-item ope" type="button" value="-" onclick="insert('-')">
-            <input class="pad-item num" type="button" value="1" onclick="insert('1')">
-            <input class="pad-item num" type="button" value="2" onclick="insert('2')">
-            <input class="pad-item num" type="button" value="3" onclick="insert('3')">
-            <input class="pad-item ope" type="button" value="+" onclick="insert('+')">
-            <input class="pad-item num col-span-2" type="button" value="0" onclick="insert('0')">
-            <input class="pad-item num" type="button" value="." onclick="insert('.')">
-            <input class="pad-item ope" type="button" value="=" onclick="eql()">
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <App></App>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
